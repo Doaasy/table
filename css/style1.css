@@ -1,0 +1,275 @@
+.header {
+    width:50%;
+    height: 86px;
+    background: #F5F5F5;
+    border-bottom: 1px #7662B3 solid;
+   margin: auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
+   
+  
+  
+ 
+  .container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+     display: flex;
+  }
+  
+  .content {
+    margin-left: 20px;
+  }
+  
+  .Confirmation {
+    font-weight: bold;  
+    margin-top: 5px; 
+    text-align: center; color: #7662B3; font-size: 10px; left: 190px;
+
+    font-family: Open Sans; font-weight: 600; line-height: 16.52px; position: relative;
+  }
+  
+  .num {
+    margin-top: 5px;  margin-top: 5px;left: 180px;
+    text-align: center; color: #7662B3; font-size: 10px; 
+    font-family: Open Sans; font-weight: 600; line-height: 16.52px; position: relative;
+  }
+  
+  .date {
+    margin-top: 5px;left:150px;
+    text-align: center; color: #7662B3; font-size: 10px; 
+    
+    font-family: Open Sans; font-weight: 600; line-height: 16.52px; position: relative;
+  }
+  
+  .logo{
+
+    position:relative ;
+
+  }
+
+  .Fligth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 20px;
+    position: relative;
+    
+  }
+  
+  .circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    width: 17px;
+    height: 17px;
+    background: #7662B3;
+    border-radius: 9999px;
+    position: relative;
+
+  }
+
+  
+
+
+  .circle-inner {
+    width: 17px;
+    height: 17px;
+    position: absolute;
+    background: #7662B3;
+    border-radius: 9999px;
+  }
+
+  .number {
+    color: white;
+    font-size: 10px;
+    font-family: Open Sans;
+    font-weight: 600;
+    line-height: 16.52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+
+  .text {
+    color: #7662B3;
+    font-size: 10px;
+    font-family: Open Sans;
+    font-weight: 600;
+    line-height: 16.52px;
+    margin-left: 5px;
+    position: relative;
+  }
+
+  .label {
+    color: #989898;
+    font-size: 8px;
+    font-family: Open Sans;
+    font-weight: 400;
+    line-height: 13.21px;
+    margin-left: 220px;
+    position: relative;
+  }
+
+  .value {
+    color: #1D1D1D;
+    font-size: 10px;
+    font-family: Open Sans;
+    font-weight: 400;
+    line-height: 16.52px;
+    margin-left: 5px;
+    position: relative;
+  }
+
+  
+  
+  table {
+    width:400px; 
+    margin: auto;
+    margin-top: 20px;
+    border-collapse: collapse;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+   
+  }
+  th{
+    border-bottom: 0.25px dotted black;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  td {
+    padding: 8px;
+    text-align: center;
+    border: #1D1D1D 0px dotted;
+    
+}
+
+tr{
+  padding: 8px;
+    text-align:center;font-size: 10px;
+    border-bottom: 0.25px dotted black;
+
+}
+.border1{
+  width: 500px;
+  margin: 0 auto;
+  margin-top: 20px;
+  border: 1px solid #7662B3;
+}
+
+@media screen and (max-width: 500px) {
+  
+  table {
+    margin: auto;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-collapse: collapse;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+   
+  }
+  
+  
+  td {
+    padding: 8px;
+    
+}
+
+tr{
+  padding: 6px;
+    text-align:center;font-size: 10px;
+}
+  .label{
+   margin-left:120px;
+   font-size: 8px;
+  }
+  
+   .value{
+     margin-left:10px ;
+  }
+ 
+ }
+
+
+
+  @media screen and (max-width: 800px) {
+    .header{
+      width:500px;
+    }
+    .Confirmation {
+      margin: auto;
+      font-size: 8px;
+      
+     }
+     .num{
+      margin: auto;
+      font-size: 8px;  
+   }
+     .date{
+      margin: auto;
+        font-size: 8px;
+  
+      }
+   
+  }
+ 
+  
+  @media screen and (min-width:1200px) {
+    
+    .Confirmation {
+      margin: auto;
+      font-size: 10px;
+      left: 310px;
+      
+     }
+     .num{
+      margin: auto;
+      font-size: 10px;  
+      left: 300px;
+   }
+     .date{
+      margin: auto;
+        font-size: 10px;
+        left: 290px;
+  
+      }
+      
+  }
+      
+  @media screen and (min-width:2000px) {
+    
+    .Confirmation {
+      margin: auto;
+      font-size: 15px;
+      left: 700px;
+      
+     }
+     .num{
+      margin: auto;
+      font-size: 15px;
+      left: 700px;
+   }
+     .date{
+      margin: auto;
+        font-size: 15px;
+        left: 600px;
+  
+      }
+      
+  }
